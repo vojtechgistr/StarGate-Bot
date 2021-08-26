@@ -1,0 +1,154 @@
+{
+    "discord": {
+        "bot": {
+            "prefix": "--",
+            "token": "ODcwNDA5Mzg2MDEzNjQ2ODQ5.YQMV6Q.LYO6bZnZ2FNyRBuG8JAUhBiXU8w",
+            "client_id": "870409386013646849",
+            "currency": "🪙 SC"
+        },
+        "guild": {
+            "ownerRole": "825457047054057531",
+            "adminRole": "825457047054057530",
+            "mainModRole": "825457047054057529",
+            "modRole": "861655934937464852",
+            "testModRole": "825457047054057529",
+            "boosterRole": "843050716696281098"
+        },
+        "economy": {
+                "1": {
+                    "typ": "Ruda",
+                    "itemName": "Měď",
+                    "emoji": "<:Med:870414761458819082>",
+                    "sellingPrice": "2",
+                    "pickNeeded": "Základní Krumpáč",
+                    "pickID": "11",
+                    "lore": ""
+                },
+                "2": {
+                    "typ": "Ruda",
+                    "itemName": "Železo",
+                    "emoji": "<:Zelezo:870414761421074473>",
+                    "sellingPrice": "10",
+                    "pickNeeded": "Základní Krumpáč",
+                    "pickID": "11",
+                    "lore": ""
+                },
+                "3": {
+                    "typ": "Ruda",
+                    "itemName": "Zlato",
+                    "emoji": "<:Zlato:870414761207164930>",
+                    "sellingPrice": "25",
+                    "pickNeeded": "Železný Krumpáč",
+                    "pickID": "12",
+                    "lore": ""
+                },
+                "4": {
+                    "typ": "Ruda",
+                    "itemName": "Rubín",
+                    "emoji": "<:rubin:870414761488167023>",
+                    "sellingPrice": "50",
+                    "pickNeeded": "Železný Krumpáč",
+                    "pickID": "12",
+                    "lore": ""
+                },
+                "5": {
+                    "typ": "Ruda",
+                    "itemName": "Diamant",
+                    "emoji": "<:Diamant:870414761450430564>",
+                    "sellingPrice": "100",
+                    "pickNeeded": "Metalový Krumpáč",
+                    "pickID": "13",
+                    "lore": ""
+                },
+                "6": {
+                    "typ": "Ruda",
+                    "itemName": "Ametyst",
+                    "emoji": "<:ametyst:870414761463009350>",
+                    "sellingPrice": "200",
+                    "pickNeeded": "Diamantový Krumpáč",
+                    "pickID": "14",
+                    "lore": ""
+                },
+                "7": {
+                    "typ": "Ruda",
+                    "itemName": "Úlomek Meteoritu",
+                    "emoji": "<:meteorit:870414761576267806>",
+                    "sellingPrice": "350",
+                    "pickNeeded": "Diamantový Krumpáč",
+                    "pickID": "14",
+                    "lore": ""
+                },
+                "8": {
+                    "typ": "Ruda",
+                    "itemName": "Úlomek spadlé hvězdy",
+                    "emoji": "<:ulomekhvezdy:870414762008248400>",
+                    "sellingPrice": "1000",
+                    "pickNeeded": "Krumpáč z Meteoritu",
+                    "pickID": "15",
+                    "lore": ""
+                },
+                "9": {
+                    "typ": "Ruda",
+                    "itemName": "Úlomek spadlé planetky",
+                    "emoji": "<:planetka:870414761542688779>",
+                    "sellingPrice": "2500",
+                    "pickNeeded": "Krumpáč z Meteoritu",
+                    "pickID": "15",
+                    "lore": ""
+                },
+                "10": {
+                    "typ": "Ruda",
+                    "itemName": "Malinké vyhaslé slunce",
+                    "emoji": "<:vyhasleSlunce:870414761383313449>",
+                    "sellingPrice": "5000",
+                    "pickNeeded": "Krumpáč z Meteoritu",
+                    "pickID": "15",
+                    "lore": ""
+                },
+                "11": {
+                    "typ": "Předmět",
+                    "itemName": "Základní Krumpáč",
+                    "emoji": "⛏️",
+                    "canBeDone": "vytěžit Měď a Železo",
+                    "mineToList": [1, 2]
+                },
+                "12": {
+                    "typ": "Předmět",
+                    "itemName": "Železný Krumpáč",
+                    "emoji": "⛏️",
+                    "buyingPrice": "10000",
+                    "canBeDone": "vytěžit Měď, Železo, Zlato a Rubín",
+                    "mineToList": [1, 2, 3, 4],
+                    "tradeEmoji": ["2️⃣"]
+
+                },
+                "13": {
+                    "typ": "Předmět",
+                    "itemName": "Metalový Krumpáč",
+                    "emoji": "⛏️",
+                    "buyingPrice": "130000",
+                    "canBeDone": "vytěžit Měď, Železo, Zlato, Rubín a Diamant",
+                    "mineToList": [1, 2, 3, 4, 5],
+                    "tradeEmoji": ["3️⃣"]
+                },
+                "14": {
+                    "typ": "Předmět",
+                    "itemName": "Diamantový Krumpáč",
+                    "emoji": "⛏️",
+                    "buyingPrice": "500000",
+                    "canBeDone": "vytěžit Měď, Železo, Zlato, Rubín, Diamant, Ametyst a Úlomek Meteoritu",
+                    "mineToList": [1, 2, 3, 4, 5, 6, 7],
+                    "tradeEmoji": ["4️⃣"]
+                },
+                "15": {
+                    "typ": "Předmět",
+                    "itemName": "Krumpáč z Meteoritu",
+                    "emoji": "⛏️",
+                    "buyingPrice": "1000000",
+                    "canBeDone": "vytěžit Měď, Železo, Zlato, Rubín, Diamant, Ametyst, Úlomek Meteoritu, Úlomek spadlé hvězdy, Úlomek spadlé planetky a Malinké vyhaslé slunce",
+                    "mineToList": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+                    "tradeEmoji": ["5️⃣"]
+                }
+        }
+    }
+}
