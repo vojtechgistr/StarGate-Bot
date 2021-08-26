@@ -3,7 +3,7 @@
         "bot": {
             "prefix": "--",
             "token": "HERE YOU CAN PUT YOUR TOKEN",
-            "client_id": "870409386013646849",
+            "client_id": "BOT ID",
             "currency": "🪙 SC"
         },
         "guild": {
